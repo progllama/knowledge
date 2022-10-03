@@ -44,19 +44,19 @@ services:
 
 ## ビルド
 
-```docker-compose build```
+`docker-compose build`
 
 ## コンテナの起動
 
-```docker-compose up -d```
+`docker-compose up -d`
 
 ## コンテナに入る
 
-```docker exec -u postgres -it pgsql bash```
+`docker-compose exec -u postgres pgsql bash`
 
 ## クライアントの起動
 
-```psql```
+`psql`
 
 ## 参考
 
